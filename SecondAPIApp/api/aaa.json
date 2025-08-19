@@ -1,0 +1,21 @@
+{
+  "date": "2025-08-19",
+  "doc_num": "0001",
+  "summa": 11500,
+  "row": [
+    {
+      "code": "00004",
+      "name": "Garni jur",
+      "qty": 1,
+      "price": 1500,
+      "row_summa": 1500
+    },
+    {
+      "code": "00003",
+      "name": "Material 1",
+      "qty": 4,
+      "price": 2500,
+      "row_summa": 10000
+    }
+  ]
+}

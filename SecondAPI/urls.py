@@ -17,6 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from SecondAPIApp.api.employees import EmployeesView
+from SecondAPIApp.api.unit import UnitView
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/employees', EmployeesView.as_view()),
+    path('api/unit', UnitView.as_view()),
 ]
